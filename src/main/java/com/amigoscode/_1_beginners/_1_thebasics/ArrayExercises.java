@@ -15,9 +15,12 @@ public class ArrayExercises {
         int[] numbers = {1, 2, 3, 4, 5};
 
 
-        // TODO: 2 - Access and print the first and last elements of the array
-        // Hint: Arrays are zero-indexed. First element is numbers[0].
-        //       Last element is numbers[numbers.length - 1].
+        // DONE: 2 - Access and print the first and last elements of the array
+        // Hint: Arrays are zero-indexed. The first element is numbers[0].
+        //       The last element is numbers[numbers.length - 1].
+        IO.println("First number: %d Last number: %d"
+                .formatted(numbers[0], numbers[numbers.length - 1]));
+
 
         // TODO: 3 - Change the value of the third element (index 2) to 99 and print it
         // Hint: numbers[2] = 99;
