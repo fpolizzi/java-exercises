@@ -2,7 +2,7 @@ package com.amigoscode._1_beginners._1_thebasics;
 
 /**
  * Exercise: Arrays
- *
+ * <p>
  * Learn how to declare, initialize, and work with arrays in Java.
  * Arrays are fixed-size containers that hold elements of the same type.
  */
@@ -10,14 +10,14 @@ public class ArrayExercises {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Declare and initialize an int array called 'numbers' with 5 values
+        // DONE: 1 - Declare and initialize an int array called 'numbers' with 5 values
         // Hint: int[] numbers = {value1, value2, value3, value4, value5};
+        int[] numbers = {1, 2, 3, 4, 5};
 
 
         // TODO: 2 - Access and print the first and last elements of the array
         // Hint: Arrays are zero-indexed. First element is numbers[0].
         //       Last element is numbers[numbers.length - 1].
-
 
         // TODO: 3 - Change the value of the third element (index 2) to 99 and print it
         // Hint: numbers[2] = 99;
