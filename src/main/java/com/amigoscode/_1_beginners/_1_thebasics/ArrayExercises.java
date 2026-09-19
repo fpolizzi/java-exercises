@@ -36,8 +36,12 @@ public class ArrayExercises {
                 .formatted(arrayLength));
 
 
-        // TODO: 5 - Loop through the array using a standard for loop and print each element
+        // DONE: 5 - Loop through the array using a standard for loop and print each element
         // Hint: for (int i = 0; i < numbers.length; i++) { ... }
+        for (int i = 0; i < numbers.length; i++) {
+            IO.println("Element Nr. %d = %d"
+                    .formatted(i, numbers[i]));
+        }
 
 
         // TODO: 6 - Loop through the array using an enhanced for loop (for-each) and print each element
