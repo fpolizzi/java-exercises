@@ -29,8 +29,11 @@ public class ArrayExercises {
                 .formatted(numbers[2]));
 
 
-        // TODO: 4 - Get the length of the array and print it
+        // DONE: 4 - Get the length of the array and print it
         // Hint: Use the .length property (not a method, no parentheses)
+        int arrayLength = numbers.length;
+        IO.println("Length of Array numbers[]: %d"
+                .formatted(arrayLength));
 
 
         // TODO: 5 - Loop through the array using a standard for loop and print each element
