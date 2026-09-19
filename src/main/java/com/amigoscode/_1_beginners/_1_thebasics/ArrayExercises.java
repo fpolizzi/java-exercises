@@ -22,8 +22,11 @@ public class ArrayExercises {
                 .formatted(numbers[0], numbers[numbers.length - 1]));
 
 
-        // TODO: 3 - Change the value of the third element (index 2) to 99 and print it
+        // Done: 3 - Change the value of the third element (index 2) to 99 and print it
         // Hint: numbers[2] = 99;
+        numbers[2] = 99;
+        IO.println("Number with the index 2: %d"
+                .formatted(numbers[2]));
 
 
         // TODO: 4 - Get the length of the array and print it
