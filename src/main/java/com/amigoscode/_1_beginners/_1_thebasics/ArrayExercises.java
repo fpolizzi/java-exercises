@@ -45,15 +45,20 @@ public class ArrayExercises {
 
 
         // DONE: 6 - Loop through the array using an enhanced for loop (for-each) and print each element
-        // Hint: for (int num : numbers) { ... }
+        // Hint: for (int num: numbers) { ... }
         for (int element : numbers) {
             IO.println("Element = %d"
                     .formatted(element));
         }
 
 
-        // TODO: 7 - Find the sum of all elements in the array and print it
+        // DONE: 7 - Find the sum of all elements in the array and print it
         // Hint: Declare a sum variable, loop through the array, and add each element to sum
-
+        int sum = 0;
+        for (int element : numbers) {
+            sum += element;
+        }
+        IO.println("The sum of all elements in numbers[] is: %d"
+                .formatted(sum));
     }
 }
