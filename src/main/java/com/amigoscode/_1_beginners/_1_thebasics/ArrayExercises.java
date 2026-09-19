@@ -44,8 +44,12 @@ public class ArrayExercises {
         }
 
 
-        // TODO: 6 - Loop through the array using an enhanced for loop (for-each) and print each element
+        // DONE: 6 - Loop through the array using an enhanced for loop (for-each) and print each element
         // Hint: for (int num : numbers) { ... }
+        for (int element : numbers) {
+            IO.println("Element = %d"
+                    .formatted(element));
+        }
 
 
         // TODO: 7 - Find the sum of all elements in the array and print it
