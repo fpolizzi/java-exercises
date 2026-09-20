@@ -75,12 +75,21 @@ public class ConditionalStatements {
         }
 
 
-        // TODO: 5 - Use a switch statement with a String
+        // DONE: 5 - Use a switch statement with a String
         // Declare a String variable called month (e.g., "February").
         // Use a switch statement to print the number of days in that month.
         // Handle at least 3-4 months plus a default case.
 
         String month = "February";
+
+        switch (month) {
+            case "January" -> IO.println(30);
+            case "February" -> IO.println(28);
+            case "March" -> IO.println(31);
+            case "April" -> IO.println(30);
+            case "May" -> IO.println(31);
+            default -> IO.println("Invalid value");
+        }
 
 
         // TODO: 6 - Use a switch expression (Java 14+) to return a value
