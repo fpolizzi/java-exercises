@@ -21,8 +21,18 @@ public class ConditionalStatements {
         }
 
 
-        // TODO: 2 - Add an else clause to the above that prints "Not positive"
+        // DONE: 2 - Add an else clause to the above that prints "Not positive"
         // Change the value of number to a negative value or 0 to test both branches.
+
+        number = -3;
+
+        if (number > 0) {
+            IO.println("%d is a positive number."
+                    .formatted(number));
+        } else if (number < 0) {
+            IO.println("%d is a negative number."
+                    .formatted(number));
+        }
 
 
         // TODO: 3 - Write an if/else if/else chain for grade classification
