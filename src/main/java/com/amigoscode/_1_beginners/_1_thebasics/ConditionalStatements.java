@@ -92,7 +92,7 @@ public class ConditionalStatements {
         }
 
 
-        // TODO: 6 - Use a switch expression (Java 14+) to return a value
+        // DONE: 6 - Use a switch expression (Java 14+) to return a value
         // Using the 'day' variable from above, assign the day name to a String
         // using a switch expression with arrow syntax:
         //   String dayName = switch (day) {
@@ -100,6 +100,19 @@ public class ConditionalStatements {
         //       ...
         //   };
         // Print the result.
+
+        String dayName = switch (day) {
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            case 7 -> "Sunday";
+            default -> "Invalid day";
+        };
+        IO.println("Day name: %s"
+                .formatted(dayName));
 
 
         // TODO: 7 - Write a nested if statement to check if a number is positive AND even
