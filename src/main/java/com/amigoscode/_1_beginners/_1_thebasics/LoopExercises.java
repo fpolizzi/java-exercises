@@ -28,10 +28,13 @@ public class LoopExercises {
         }
 
 
-        // TODO: 3 - Write a do-while loop that runs at least once
+        // DONE: 3 - Write a do-while loop that runs at least once
         // Print "This runs at least once!" inside the loop.
         // Use a condition that is false so the loop only runs once.
         // Hint: do { ... } while (condition);
+        do {
+            IO.println("This runs at least once!");
+        } while (false);
 
 
         // TODO: 4 - Write a for loop to print only even numbers from 1 to 20
