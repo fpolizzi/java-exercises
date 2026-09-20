@@ -55,13 +55,24 @@ public class ConditionalStatements {
         }
 
 
-        // TODO: 4 - Write a switch statement for day of the week
+        // DONE: 4 - Write a switch statement for day of the week
         // Declare an int variable called day (1-7).
         // Use a switch statement to print the day name:
         //   1 -> "Monday", 2 -> "Tuesday", ... 7 -> "Sunday"
         // Include a default case for invalid values.
 
         int day = 3;
+
+        switch (day) {
+            case 1 -> IO.println("Monday");
+            case 2 -> IO.println("Tuesday");
+            case 3 -> IO.println("Wednesday");
+            case 4 -> IO.println("Thursday");
+            case 5 -> IO.println("Friday");
+            case 6 -> IO.println("Saturday");
+            case 7 -> IO.println("Sunday");
+            default -> IO.println("Invalid value");
+        }
 
 
         // TODO: 5 - Use a switch statement with a String
