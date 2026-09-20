@@ -115,7 +115,7 @@ public class ConditionalStatements {
                 .formatted(dayName));
 
 
-        // TODO: 7 - Write a nested if statement to check if a number is positive AND even
+        // DONE: 7 - Write a nested if statement to check if a number is positive AND even
         // Declare an int variable called value.
         // First check if it is positive (> 0).
         //   If positive, check if it is even (value % 2 == 0).
@@ -125,5 +125,17 @@ public class ConditionalStatements {
 
         int value = 8;
 
+        if (value > 0) {
+            if (value % 2 == 0) {
+                IO.println("%d is positive and even"
+                        .formatted(value));
+            } else {
+                IO.println("%d is positive and odd"
+                        .formatted(value));
+            }
+        } else {
+            IO.println("%d is not positive"
+                    .formatted(value));
+        }
     }
 }
