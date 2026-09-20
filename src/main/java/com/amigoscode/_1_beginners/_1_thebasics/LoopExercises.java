@@ -17,8 +17,15 @@ public class LoopExercises {
         }
 
 
-        // TODO: 2 - Write a while loop to print numbers 10 down to 1 (countdown)
+        // DONE: 2 - Write a while loop to print numbers 10 down to 1 (countdown)
         // Hint: Declare a variable before the loop, use a condition, and decrement inside the loop.
+        int value = 10;
+
+        while(value > 0) {
+            IO.println(value);
+
+            value--;
+        }
 
 
         // TODO: 3 - Write a do-while loop that runs at least once
