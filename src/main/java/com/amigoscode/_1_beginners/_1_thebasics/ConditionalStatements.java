@@ -35,7 +35,7 @@ public class ConditionalStatements {
         }
 
 
-        // TODO: 3 - Write an if/else if/else chain for grade classification
+        // DONE: 3 - Write an if/else if/else chain for grade classification
         // Declare an int variable called score and assign it a value (0-100).
         // If score >= 90, print "Grade: A"
         // Else if score >= 80, print "Grade: B"
@@ -43,6 +43,16 @@ public class ConditionalStatements {
         // Else print "Grade: F"
 
         int score = 85;
+
+        if (score >= 90) {
+            IO.println("Grade: A");
+        } else if (score >= 80) {
+            IO.println("Grade: B");
+        } else if (score >= 70) {
+            IO.println("Grade: C");
+        } else {
+            IO.println("Grade: E");
+        }
 
 
         // TODO: 4 - Write a switch statement for day of the week
