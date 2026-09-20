@@ -10,8 +10,11 @@ public class LoopExercises {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Write a for loop to print numbers 1 to 10
+        // DONE: 1 - Write a for loop to print numbers 1 to 10
         // Hint: for (int i = 1; i <= 10; i++) { ... }
+        for (int i = 1; i <= 10; i++) {
+            IO.println(i);
+        }
 
 
         // TODO: 2 - Write a while loop to print numbers 10 down to 1 (countdown)
