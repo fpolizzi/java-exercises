@@ -69,6 +69,7 @@ public class LoopExercises {
             IO.println(fruit);
         }
 
+
         // DONE: 7 - Write a nested for loop to print a 3x3 multiplication table
         // The output should look like:
         //   1  2  3
@@ -84,11 +85,15 @@ public class LoopExercises {
         }
 
 
-        // TODO: 8 - Use break and continue in a loop
+        // DONE: 8 - Use break and continue in a loop
         // Write a for loop from 1 to 10:
         //   - Use 'continue' to skip the number 5 (do not print it)
         //   - Use 'break' to stop the loop when you reach 8
         // Print each number that is not skipped.
-
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) continue;
+            if (i == 8) break;
+            IO.println(i);
+        }
     }
 }
