@@ -60,10 +60,14 @@ public class LoopExercises {
         IO.println("5! = " + factorial);
 
 
-        // TODO: 6 - Use an enhanced for loop (for-each) to iterate over a String array
+        // DONE: 6 - Use an enhanced for loop (for-each) to iterate over a String array
         // Declare a String array called fruits with at least 4 fruit names.
         // Use an enhanced for loop to print each fruit.
+        String[] fruits = {"apple", "banana", "orange", "peach", "lemon"};
 
+        for (String fruit : fruits) {
+            IO.println(fruit);
+        }
 
         // TODO: 7 - Write a nested for loop to print a 3x3 multiplication table
         // The output should look like:
