@@ -47,10 +47,17 @@ public class LoopExercises {
         }
 
 
-        // TODO: 5 - Write a for loop to calculate the factorial of 5 (5! = 120)
+        // DONE: 5 - Write a for loop to calculate the factorial of 5 (5! = 120)
         // Declare a variable called factorial and initialize it to 1.
         // Multiply factorial by each number from 1 to 5.
         // Print the result.
+        int factorial = 1;
+
+        for (int i = 1; i <= 5; i++) {
+            factorial *= i;
+        }
+
+        IO.println("5! = " + factorial);
 
 
         // TODO: 6 - Use an enhanced for loop (for-each) to iterate over a String array
