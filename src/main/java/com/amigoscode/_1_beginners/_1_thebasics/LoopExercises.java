@@ -69,13 +69,19 @@ public class LoopExercises {
             IO.println(fruit);
         }
 
-        // TODO: 7 - Write a nested for loop to print a 3x3 multiplication table
+        // DONE: 7 - Write a nested for loop to print a 3x3 multiplication table
         // The output should look like:
         //   1  2  3
         //   2  4  6
         //   3  6  9
         // Hint: Use System.out.print() for values on the same row,
         //       and System.out.println() to move to the next row.
+        for (int i = 1; i < 4; i++) {
+            for (int j = 1; j < 4; j++) {
+                System.out.print(i * j + " ");
+            }
+            System.out.println();
+        }
 
 
         // TODO: 8 - Use break and continue in a loop
