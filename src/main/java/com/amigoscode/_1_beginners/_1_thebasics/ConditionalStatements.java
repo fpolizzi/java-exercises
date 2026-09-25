@@ -10,16 +10,32 @@ public class ConditionalStatements {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Write an if statement that prints "Positive" if a number is greater than 0
+        // DONE: 1 - Write an if statement that prints "Positive" if a number is greater than 0
         // Declare an int variable called number and assign it a positive value.
 
         int number = 7;
 
-        // TODO: 2 - Add an else clause to the above that prints "Not positive"
+        if (number > 0) {
+            IO.println("%d is a positive number."
+                    .formatted(number));
+        }
+
+
+        // DONE: 2 - Add an else clause to the above that prints "Not positive"
         // Change the value of number to a negative value or 0 to test both branches.
 
+        number = -3;
 
-        // TODO: 3 - Write an if/else if/else chain for grade classification
+        if (number > 0) {
+            IO.println("%d is a positive number."
+                    .formatted(number));
+        } else if (number < 0) {
+            IO.println("%d is a negative number."
+                    .formatted(number));
+        }
+
+
+        // DONE: 3 - Write an if/else if/else chain for grade classification
         // Declare an int variable called score and assign it a value (0-100).
         // If score >= 90, print "Grade: A"
         // Else if score >= 80, print "Grade: B"
@@ -28,8 +44,18 @@ public class ConditionalStatements {
 
         int score = 85;
 
+        if (score >= 90) {
+            IO.println("Grade: A");
+        } else if (score >= 80) {
+            IO.println("Grade: B");
+        } else if (score >= 70) {
+            IO.println("Grade: C");
+        } else {
+            IO.println("Grade: E");
+        }
 
-        // TODO: 4 - Write a switch statement for day of the week
+
+        // DONE: 4 - Write a switch statement for day of the week
         // Declare an int variable called day (1-7).
         // Use a switch statement to print the day name:
         //   1 -> "Monday", 2 -> "Tuesday", ... 7 -> "Sunday"
@@ -37,16 +63,36 @@ public class ConditionalStatements {
 
         int day = 3;
 
+        switch (day) {
+            case 1 -> IO.println("Monday");
+            case 2 -> IO.println("Tuesday");
+            case 3 -> IO.println("Wednesday");
+            case 4 -> IO.println("Thursday");
+            case 5 -> IO.println("Friday");
+            case 6 -> IO.println("Saturday");
+            case 7 -> IO.println("Sunday");
+            default -> IO.println("Invalid value");
+        }
 
-        // TODO: 5 - Use a switch statement with a String
+
+        // DONE: 5 - Use a switch statement with a String
         // Declare a String variable called month (e.g., "February").
         // Use a switch statement to print the number of days in that month.
         // Handle at least 3-4 months plus a default case.
 
         String month = "February";
 
+        switch (month) {
+            case "January" -> IO.println(30);
+            case "February" -> IO.println(28);
+            case "March" -> IO.println(31);
+            case "April" -> IO.println(30);
+            case "May" -> IO.println(31);
+            default -> IO.println("Invalid value");
+        }
 
-        // TODO: 6 - Use a switch expression (Java 14+) to return a value
+
+        // DONE: 6 - Use a switch expression (Java 14+) to return a value
         // Using the 'day' variable from above, assign the day name to a String
         // using a switch expression with arrow syntax:
         //   String dayName = switch (day) {
@@ -55,8 +101,21 @@ public class ConditionalStatements {
         //   };
         // Print the result.
 
+        String dayName = switch (day) {
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            case 7 -> "Sunday";
+            default -> "Invalid day";
+        };
+        IO.println("Day name: %s"
+                .formatted(dayName));
 
-        // TODO: 7 - Write a nested if statement to check if a number is positive AND even
+
+        // DONE: 7 - Write a nested if statement to check if a number is positive AND even
         // Declare an int variable called value.
         // First check if it is positive (> 0).
         //   If positive, check if it is even (value % 2 == 0).
@@ -66,5 +125,17 @@ public class ConditionalStatements {
 
         int value = 8;
 
+        if (value > 0) {
+            if (value % 2 == 0) {
+                IO.println("%d is positive and even"
+                        .formatted(value));
+            } else {
+                IO.println("%d is positive and odd"
+                        .formatted(value));
+            }
+        } else {
+            IO.println("%d is not positive"
+                    .formatted(value));
+        }
     }
 }

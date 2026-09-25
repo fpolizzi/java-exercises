@@ -2,7 +2,7 @@ package com.amigoscode._1_beginners._1_thebasics;
 
 /**
  * Exercise: Arrays
- *
+ * <p>
  * Learn how to declare, initialize, and work with arrays in Java.
  * Arrays are fixed-size containers that hold elements of the same type.
  */
@@ -10,33 +10,55 @@ public class ArrayExercises {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Declare and initialize an int array called 'numbers' with 5 values
+        // DONE: 1 - Declare and initialize an int array called 'numbers' with 5 values
         // Hint: int[] numbers = {value1, value2, value3, value4, value5};
+        int[] numbers = {1, 2, 3, 4, 5};
 
 
-        // TODO: 2 - Access and print the first and last elements of the array
-        // Hint: Arrays are zero-indexed. First element is numbers[0].
-        //       Last element is numbers[numbers.length - 1].
+        // DONE: 2 - Access and print the first and last elements of the array
+        // Hint: Arrays are zero-indexed. The first element is numbers[0].
+        //       The last element is numbers[numbers.length - 1].
+        IO.println("First number: %d Last number: %d"
+                .formatted(numbers[0], numbers[numbers.length - 1]));
 
 
-        // TODO: 3 - Change the value of the third element (index 2) to 99 and print it
+        // Done: 3 - Change the value of the third element (index 2) to 99 and print it
         // Hint: numbers[2] = 99;
+        numbers[2] = 99;
+        IO.println("Number with the index 2: %d"
+                .formatted(numbers[2]));
 
 
-        // TODO: 4 - Get the length of the array and print it
+        // DONE: 4 - Get the length of the array and print it
         // Hint: Use the .length property (not a method, no parentheses)
+        int arrayLength = numbers.length;
+        IO.println("Length of Array numbers[]: %d"
+                .formatted(arrayLength));
 
 
-        // TODO: 5 - Loop through the array using a standard for loop and print each element
+        // DONE: 5 - Loop through the array using a standard for loop and print each element
         // Hint: for (int i = 0; i < numbers.length; i++) { ... }
+        for (int i = 0; i < numbers.length; i++) {
+            IO.println("Element Nr. %d = %d"
+                    .formatted(i, numbers[i]));
+        }
 
 
-        // TODO: 6 - Loop through the array using an enhanced for loop (for-each) and print each element
-        // Hint: for (int num : numbers) { ... }
+        // DONE: 6 - Loop through the array using an enhanced for loop (for-each) and print each element
+        // Hint: for (int num: numbers) { ... }
+        for (int element : numbers) {
+            IO.println("Element = %d"
+                    .formatted(element));
+        }
 
 
-        // TODO: 7 - Find the sum of all elements in the array and print it
+        // DONE: 7 - Find the sum of all elements in the array and print it
         // Hint: Declare a sum variable, loop through the array, and add each element to sum
-
+        int sum = 0;
+        for (int element : numbers) {
+            sum += element;
+        }
+        IO.println("The sum of all elements in numbers[] is: %d"
+                .formatted(sum));
     }
 }
