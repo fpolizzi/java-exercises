@@ -8,9 +8,12 @@ package com.amigoscode._1_beginners._1_thebasics;
  */
 public class MethodExercises {
 
-    // TODO: 1 - Create a method called greet that takes a String parameter 'name'
+    // DONE: 1 - Create a method called greet that takes a String parameter 'name'
     // and prints "Hello, {name}!"
     // Hint: public static void greet(String name) { ... }
+    public static void greet(String name) {
+        IO.println("Hello, ".formatted(name));
+    }
 
 
     // TODO: 2 - Create a method called add that takes two int parameters (a, b)
@@ -43,6 +46,7 @@ public class MethodExercises {
 
         // TODO: 7 - Call all the methods above and print their results
         // - Call greet with your name
+        greet("Franco");
         // - Call add with two numbers and print the result
         // - Call isEven with a number and print whether it is even
         // - Call max with two numbers and print the larger one
