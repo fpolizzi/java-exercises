@@ -39,9 +39,17 @@ public class MethodExercises {
         return (a >= b) ? a : b;
     }
 
-    // TODO: 5 - Create a method called factorial that takes an int parameter 'n'
+
+    // DONE: 5 - Create a method called factorial that takes an int parameter 'n'
     // and returns n! (n factorial) using a loop
     // Hint: 5! = 5 * 4 * 3 * 2 * 1 = 120. Use a long return type for larger values.
+    public static long factorial(int n) {
+        long result = 1;
+        for (int i = 1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
+    }
 
 
     // TODO: 6 - Create two overloaded methods called multiply:
@@ -62,6 +70,7 @@ public class MethodExercises {
         // - Call max with two numbers and print the larger one
         System.out.println("max(7, 12) = " + max(7, 12));
         // - Call factorial with 5 and print the result
+        System.out.println("factorial(5) = " + factorial(5));
         // - Call both multiply methods and print their results
 
     }
