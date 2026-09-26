@@ -54,7 +54,13 @@ public class MethodExercises {
 
     // TODO: 6 - Create two overloaded methods called multiply:
     //   - One that takes 2 int parameters and returns their product
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
     //   - One that takes 3 int parameters and returns their product
+    public static int multiply(int a, int b, int c) {
+        return a * b *c;
+    }
     // Overloading means having multiple methods with the same name but different parameters.
 
 
@@ -72,6 +78,7 @@ public class MethodExercises {
         // - Call factorial with 5 and print the result
         System.out.println("factorial(5) = " + factorial(5));
         // - Call both multiply methods and print their results
-
+        System.out.println("multiply(3, 4) = " + multiply(3, 4));
+        System.out.println("multiply(2, 3, 4) = " + multiply(2, 3, 4));
     }
 }
