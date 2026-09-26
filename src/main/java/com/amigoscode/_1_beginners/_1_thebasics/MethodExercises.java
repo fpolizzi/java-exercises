@@ -24,9 +24,12 @@ public class MethodExercises {
     }
 
 
-    // TODO: 3 - Create a method called isEven that takes an int parameter 'number'
+    // DONE: 3 - Create a method called isEven that takes an int parameter 'number'
     // and returns true if the number is even, false otherwise
     // Hint: Use the modulus operator (%)
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
 
 
     // TODO: 4 - Create a method called max that takes two int parameters (a, b)
@@ -53,6 +56,7 @@ public class MethodExercises {
         // - Call add with two numbers and print the result
         System.out.println(add(5, 7));
         // - Call isEven with a number and print whether it is even
+        System.out.println("isEven(5) = " + isEven(5));
         // - Call max with two numbers and print the larger one
         // - Call factorial with 5 and print the result
         // - Call both multiply methods and print their results
