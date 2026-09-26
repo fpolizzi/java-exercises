@@ -12,13 +12,16 @@ public class MethodExercises {
     // and prints "Hello, {name}!"
     // Hint: public static void greet(String name) { ... }
     public static void greet(String name) {
-        IO.println("Hello, ".formatted(name));
+        System.out.println("Hello, " + name);
     }
 
 
-    // TODO: 2 - Create a method called add that takes two int parameters (a, b)
+    // DONE: 2 - Create a method called add that takes two int parameters (a, b)
     // and returns their sum
     // Hint: public static int add(int a, int b) { ... }
+    public static int add(int a, int b) {
+        return a + b;
+    }
 
 
     // TODO: 3 - Create a method called isEven that takes an int parameter 'number'
@@ -48,6 +51,7 @@ public class MethodExercises {
         // - Call greet with your name
         greet("Franco");
         // - Call add with two numbers and print the result
+        System.out.println(add(5, 7));
         // - Call isEven with a number and print whether it is even
         // - Call max with two numbers and print the larger one
         // - Call factorial with 5 and print the result
