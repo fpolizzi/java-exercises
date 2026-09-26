@@ -32,10 +32,12 @@ public class MethodExercises {
     }
 
 
-    // TODO: 4 - Create a method called max that takes two int parameters (a, b)
+    // DONE: 4 - Create a method called max that takes two int parameters (a, b)
     // and returns the larger of the two
     // Hint: Use an if statement or the ternary operator
-
+    public static int max(int a, int b) {
+        return (a >= b) ? a : b;
+    }
 
     // TODO: 5 - Create a method called factorial that takes an int parameter 'n'
     // and returns n! (n factorial) using a loop
@@ -58,6 +60,7 @@ public class MethodExercises {
         // - Call isEven with a number and print whether it is even
         System.out.println("isEven(5) = " + isEven(5));
         // - Call max with two numbers and print the larger one
+        System.out.println("max(7, 12) = " + max(7, 12));
         // - Call factorial with 5 and print the result
         // - Call both multiply methods and print their results
 
