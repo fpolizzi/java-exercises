@@ -52,7 +52,7 @@ public class MethodExercises {
     }
 
 
-    // TODO: 6 - Create two overloaded methods called multiply:
+    // DONE: 6 - Create two overloaded methods called multiply:
     //   - One that takes 2 int parameters and returns their product
     public static int multiply(int a, int b) {
         return a * b;
