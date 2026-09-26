@@ -66,7 +66,7 @@ public class MethodExercises {
 
     public static void main(String[] args) {
 
-        // TODO: 7 - Call all the methods above and print their results
+        // DONE: 7 - Call all the methods above and print their results
         // - Call greet with your name
         greet("Franco");
         // - Call add with two numbers and print the result
