@@ -28,32 +28,36 @@ public class _8_StringExercises {
         System.out.println(lowerCase);
 
 
-        // Done: 3 - Get a substring of 'message' containing the first 5 characters and print it
+        // DONE: 3 - Get a substring of 'message' containing the first 5 characters and print it
         // Hint: Use .substring(startIndex, endIndex)
         String subString = message.substring(0, 5);
         System.out.println(subString);
 
 
-        // Done: 4 - Check if 'message' contains the word "Amigoscode" and print the result
+        // DONE: 4 - Check if 'message' contains the word "Amigoscode" and print the result
         // Hint: Use .contains()
         String contains = "Amigoscode";
         System.out.println(message.contains(contains));
 
 
-        // Done: 5 - Replace "Amigoscode" with "Java" in 'message' and print the new string
+        // DONE: 5 - Replace "Amigoscode" with "Java" in 'message' and print the new string
         // Hint: Use .replace(oldValue, newValue)
         String result = message.replace("Amigoscode", "Java");
         System.out.println(result);
 
 
-        // Done: 6 - Trim the whitespace from the 'padded' string and print the result
+        // DONE: 6 - Trim the whitespace from the 'padded' string and print the result
         // Hint: Use .trim()
         System.out.println(padded);
         System.out.println(padded.trim());
 
 
-        // TODO: 7 - Split the 'csv' string by commas into a String array and print each element
+        // DONE: 7 - Split the 'csv' string by commas into a String array and print each element
         // Hint: Use .split(",") then loop through the resulting array
+        String[] stringArray = csv.split(",");
+        for (String str : stringArray) {
+            System.out.println(str);
+        }
 
 
         // TODO: 8 - Check if two strings are equal using .equals() (not ==)
