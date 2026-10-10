@@ -20,8 +20,12 @@ public class _8_StringExercises {
         System.out.println(message.length());
 
 
-        // TODO: 2 - Convert 'message' to uppercase and lowercase, and print both
+        // DONE: 2 - Convert 'message' to uppercase and lowercase, and print both
         // Hint: Use .toUpperCase() and .toLowerCase()
+        String upperCase = message.toUpperCase();
+        String lowerCase = message.toLowerCase();
+        System.out.println(upperCase);
+        System.out.println(lowerCase);
 
 
         // TODO: 3 - Get a substring of 'message' containing the first 5 characters and print it
