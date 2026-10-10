@@ -15,37 +15,58 @@ public class _8_StringExercises {
         String padded = "   Hello World   ";
         String csv = "apple,banana,cherry,date,elderberry";
 
-        // TODO: 1 - Get the length of the 'message' string and print it
+        // DONE: 1 - Get the length of the 'message' string and print it
         // Hint: Use the .length() method
+        System.out.println(message.length());
 
 
-        // TODO: 2 - Convert 'message' to uppercase and lowercase, and print both
+        // DONE: 2 - Convert 'message' to uppercase and lowercase, and print both
         // Hint: Use .toUpperCase() and .toLowerCase()
+        String upperCase = message.toUpperCase();
+        String lowerCase = message.toLowerCase();
+        System.out.println(upperCase);
+        System.out.println(lowerCase);
 
 
-        // TODO: 3 - Get a substring of 'message' containing the first 5 characters and print it
+        // DONE: 3 - Get a substring of 'message' containing the first 5 characters and print it
         // Hint: Use .substring(startIndex, endIndex)
+        String subString = message.substring(0, 5);
+        System.out.println(subString);
 
 
-        // TODO: 4 - Check if 'message' contains the word "Amigoscode" and print the result
+        // DONE: 4 - Check if 'message' contains the word "Amigoscode" and print the result
         // Hint: Use .contains()
+        String contains = "Amigoscode";
+        System.out.println(message.contains(contains));
 
 
-        // TODO: 5 - Replace "Amigoscode" with "Java" in 'message' and print the new string
+        // DONE: 5 - Replace "Amigoscode" with "Java" in 'message' and print the new string
         // Hint: Use .replace(oldValue, newValue)
+        String result = message.replace("Amigoscode", "Java");
+        System.out.println(result);
 
 
-        // TODO: 6 - Trim the whitespace from the 'padded' string and print the result
+        // DONE: 6 - Trim the whitespace from the 'padded' string and print the result
         // Hint: Use .trim()
+        System.out.println(padded);
+        System.out.println(padded.trim());
 
 
-        // TODO: 7 - Split the 'csv' string by commas into a String array and print each element
+        // DONE: 7 - Split the 'csv' string by commas into a String array and print each element
         // Hint: Use .split(",") then loop through the resulting array
+        String[] stringArray = csv.split(",");
+        for (String str : stringArray) {
+            System.out.println(str);
+        }
 
 
-        // TODO: 8 - Check if two strings are equal using .equals() (not ==)
+        // DONE: 8 - Check if two strings are equal using .equals() (not ==)
         // Create two String variables with the same text content and compare them.
         // Print the result of .equals() and explain why == may not work for Strings.
-
+        String strOne = "Amigos";
+        String strTwo = "Amigos";
+        System.out.println(strOne.equals(strTwo));
+        System.out.println(strOne == strTwo);
+        System.out.println("== compares references and equals content");
     }
 }
