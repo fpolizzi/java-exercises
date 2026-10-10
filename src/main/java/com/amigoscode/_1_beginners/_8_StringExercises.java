@@ -46,8 +46,10 @@ public class _8_StringExercises {
         System.out.println(result);
 
 
-        // TODO: 6 - Trim the whitespace from the 'padded' string and print the result
+        // Done: 6 - Trim the whitespace from the 'padded' string and print the result
         // Hint: Use .trim()
+        System.out.println(padded);
+        System.out.println(padded.trim());
 
 
         // TODO: 7 - Split the 'csv' string by commas into a String array and print each element
