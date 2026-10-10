@@ -40,8 +40,10 @@ public class _8_StringExercises {
         System.out.println(message.contains(contains));
 
 
-        // TODO: 5 - Replace "Amigoscode" with "Java" in 'message' and print the new string
+        // Done: 5 - Replace "Amigoscode" with "Java" in 'message' and print the new string
         // Hint: Use .replace(oldValue, newValue)
+        String result = message.replace("Amigoscode", "Java");
+        System.out.println(result);
 
 
         // TODO: 6 - Trim the whitespace from the 'padded' string and print the result
