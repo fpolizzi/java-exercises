@@ -28,8 +28,10 @@ public class _8_StringExercises {
         System.out.println(lowerCase);
 
 
-        // TODO: 3 - Get a substring of 'message' containing the first 5 characters and print it
+        // Done: 3 - Get a substring of 'message' containing the first 5 characters and print it
         // Hint: Use .substring(startIndex, endIndex)
+        String subString = message.substring(0, 5);
+        System.out.println(subString);
 
 
         // TODO: 4 - Check if 'message' contains the word "Amigoscode" and print the result
