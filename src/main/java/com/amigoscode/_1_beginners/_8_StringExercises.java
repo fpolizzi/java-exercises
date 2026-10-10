@@ -60,9 +60,13 @@ public class _8_StringExercises {
         }
 
 
-        // TODO: 8 - Check if two strings are equal using .equals() (not ==)
+        // DONE: 8 - Check if two strings are equal using .equals() (not ==)
         // Create two String variables with the same text content and compare them.
         // Print the result of .equals() and explain why == may not work for Strings.
-
+        String strOne = "Amigos";
+        String strTwo = "Amigos";
+        System.out.println(strOne.equals(strTwo));
+        System.out.println(strOne == strTwo);
+        System.out.println("== compares references and equals content");
     }
 }
