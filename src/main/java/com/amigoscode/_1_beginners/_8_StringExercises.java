@@ -15,8 +15,9 @@ public class _8_StringExercises {
         String padded = "   Hello World   ";
         String csv = "apple,banana,cherry,date,elderberry";
 
-        // TODO: 1 - Get the length of the 'message' string and print it
+        // DONE: 1 - Get the length of the 'message' string and print it
         // Hint: Use the .length() method
+        System.out.println(message.length());
 
 
         // TODO: 2 - Convert 'message' to uppercase and lowercase, and print both
