@@ -34,8 +34,10 @@ public class _8_StringExercises {
         System.out.println(subString);
 
 
-        // TODO: 4 - Check if 'message' contains the word "Amigoscode" and print the result
+        // Done: 4 - Check if 'message' contains the word "Amigoscode" and print the result
         // Hint: Use .contains()
+        String contains = "Amigoscode";
+        System.out.println(message.contains(contains));
 
 
         // TODO: 5 - Replace "Amigoscode" with "Java" in 'message' and print the new string
