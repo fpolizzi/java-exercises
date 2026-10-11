@@ -69,14 +69,19 @@ public class _7_MethodExercises {
         // DONE: 7 - Call all the methods above and print their results
         // - Call greet with your name
         greet("Franco");
+        
         // - Call add with two numbers and print the result
         System.out.println(add(5, 7));
+        
         // - Call isEven with a number and print whether it is even
         System.out.println("isEven(5) = " + isEven(5));
+        
         // - Call max with two numbers and print the larger one
         System.out.println("max(7, 12) = " + max(7, 12));
+        
         // - Call factorial with 5 and print the result
         System.out.println("factorial(5) = " + factorial(5));
+        
         // - Call both multiply methods and print their results
         System.out.println("multiply(3, 4) = " + multiply(3, 4));
         System.out.println("multiply(2, 3, 4) = " + multiply(2, 3, 4));
