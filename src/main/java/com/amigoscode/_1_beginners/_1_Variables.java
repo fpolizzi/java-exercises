@@ -10,8 +10,8 @@ public class _1_Variables {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Declare an int variable called age and assign it the value 25
-
+        // DONE: 1 - Declare an int variable called age and assign it the value 25
+        int age = 25;
 
         // TODO: 2 - Declare a double variable called price and assign it the value 9.99
 
