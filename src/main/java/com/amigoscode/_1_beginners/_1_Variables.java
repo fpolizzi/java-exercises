@@ -16,8 +16,8 @@ public class _1_Variables {
         // DONE: 2 - Declare a double variable called price and assign it the value 9.99
         double price = 9.99;
 
-        // TODO: 3 - Declare a boolean variable called isJavaFun and assign it the value true
-
+        // DONE: 3 - Declare a boolean variable called isJavaFun and assign it the value true
+        boolean isJavaFun = true;
 
         // TODO: 4 - Declare a String variable called name and assign it your name
 
