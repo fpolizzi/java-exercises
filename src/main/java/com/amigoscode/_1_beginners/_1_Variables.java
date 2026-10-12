@@ -19,8 +19,8 @@ public class _1_Variables {
         // DONE: 3 - Declare a boolean variable called isJavaFun and assign it the value true
         boolean isJavaFun = true;
 
-        // TODO: 4 - Declare a String variable called name and assign it your name
-
+        // DONE: 4 - Declare a String variable called name and assign it your name
+        String name = "Franco";
 
         // TODO: 5 - Declare a char variable called grade and assign it the value 'A'
 
