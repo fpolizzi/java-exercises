@@ -10,10 +10,15 @@ public class _2_Operators {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Use arithmetic operators (+, -, *, /) on two int variables and print the results
+        // DONE: 1 - Use arithmetic operators (+, -, *, /) on two int variables and print the results
         // Declare two int variables (e.g., a = 10, b = 3)
         // Print the result of a + b, a - b, a * b, and a / b
-
+        int a = 10;
+        int b = 3;
+        System.out.println("a + b = " + (a + b));
+        System.out.println("a - b = " + (a - b));
+        System.out.println("a * b = " + (a * b));
+        System.out.println("a / b = " + (a / b));
 
         // TODO: 2 - Use the modulus operator (%) to check if a number is even
         // Declare an int variable called number with any value.
