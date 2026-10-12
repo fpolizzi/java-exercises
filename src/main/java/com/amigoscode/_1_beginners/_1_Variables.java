@@ -22,8 +22,8 @@ public class _1_Variables {
         // DONE: 4 - Declare a String variable called name and assign it your name
         String name = "Franco";
 
-        // TODO: 5 - Declare a char variable called grade and assign it the value 'A'
-
+        // DONE: 5 - Declare a char variable called grade and assign it the value 'A'
+        char grade = 'A';
 
         // TODO: 6 - Print all the variables above using System.out.println
         // Hint: You can print each variable on its own line, e.g.:
