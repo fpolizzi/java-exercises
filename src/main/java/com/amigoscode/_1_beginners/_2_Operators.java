@@ -38,10 +38,14 @@ public class _2_Operators {
         result = counter--;
         System.out.println(result);
 
-        // TODO: 4 - Use compound assignment operators (+=, -=, *=)
+        // DONE: 4 - Use compound assignment operators (+=, -=, *=)
         // Declare an int variable called score, set it to 10
         // Use +=, -=, and *= on score, printing after each operation
+        int score = 10;
 
+        System.out.println(score + " += " + (score += 10));
+        System.out.println(score + " -= " + (score -= 10));
+        System.out.println(score + " *= " + (score *= 10));
 
         // TODO: 5 - Use comparison operators (==, !=, >, <, >=, <=) and print the boolean results
         // Declare two int variables (e.g., x = 5, y = 10)
