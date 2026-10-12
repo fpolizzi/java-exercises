@@ -20,11 +20,12 @@ public class _2_Operators {
         System.out.println("a * b = " + (a * b));
         System.out.println("a / b = " + (a / b));
 
-        // TODO: 2 - Use the modulus operator (%) to check if a number is even
+        // DONE: 2 - Use the modulus operator (%) to check if a number is even
         // Declare an int variable called number with any value.
         // Print the result of number % 2
         // Print whether the number is even (result is 0) or odd (result is 1)
-
+        int number = 10;
+        System.out.println("10 % 2 = " + (number % 2) + " -> number 10 is even");
 
         // TODO: 3 - Use increment (++) and decrement (--) operators
         // Declare an int variable called counter, set it to 5
