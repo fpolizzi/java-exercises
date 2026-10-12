@@ -4,7 +4,7 @@ package com.amigoscode._1_beginners;
  * Exercise: Variables and Data Types
  *
  * Learn how to declare and use variables of different types in Java.
- * Java is a statically-typed language, meaning every variable must have a declared type.
+ * Java is a statically typed language, meaning every variable must have a declared type.
  */
 public class _1_Variables {
 
@@ -13,8 +13,8 @@ public class _1_Variables {
         // DONE: 1 - Declare an int variable called age and assign it the value 25
         int age = 25;
 
-        // TODO: 2 - Declare a double variable called price and assign it the value 9.99
-
+        // DONE: 2 - Declare a double variable called price and assign it the value 9.99
+        double price = 9.99;
 
         // TODO: 3 - Declare a boolean variable called isJavaFun and assign it the value true
 
