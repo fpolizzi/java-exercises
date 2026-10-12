@@ -28,7 +28,11 @@ public class _1_Variables {
         // TODO: 6 - Print all the variables above using System.out.println
         // Hint: You can print each variable on its own line, e.g.:
         //   System.out.println("Age: " + age);
-
+        System.out.println("Age: "+ age);
+        System.out.println("Price: "+ price);
+        System.out.println("Is Java fun: "+ isJavaFun);
+        System.out.println("Name: "+ name);
+        System.out.println("Grade: "+ grade);
 
         // TODO: 7 - Declare a final (constant) variable called MAX_SCORE, set it to 100, and print it
         // Hint: Use the 'final' keyword before the type to make a constant
