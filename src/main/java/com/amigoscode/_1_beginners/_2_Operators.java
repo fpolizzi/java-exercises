@@ -27,10 +27,16 @@ public class _2_Operators {
         int number = 10;
         System.out.println("10 % 2 = " + (number % 2) + " -> number 10 is even");
 
-        // TODO: 3 - Use increment (++) and decrement (--) operators
+        // DONE: 3 - Use increment (++) and decrement (--) operators
         // Declare an int variable called counter, set it to 5
         // Use counter++ and print the result, then use counter-- and print the result
+        int counter = 5;
 
+        int result = counter++;
+        System.out.println(result);
+
+        result = counter--;
+        System.out.println(result);
 
         // TODO: 4 - Use compound assignment operators (+=, -=, *=)
         // Declare an int variable called score, set it to 10
