@@ -37,10 +37,13 @@ public class _3_TypeCasting {
 
         System.out.println("Character: " + character);
 
-        // TODO: 4 - Cast a char to an int to get its ASCII value
+        // DONE: 4 - Cast a char to an int to get its ASCII value
         // Hint: char 'Z' has an ASCII value of 90
         // Print the resulting int.
+        char letter = 'Z';
+        int letterAscii = (int) letter;
 
+        System.out.println("ASCII value of Z: " + letterAscii);
 
         // TODO: 5 - Convert a String "42" to an int using Integer.parseInt()
         // Declare a String variable with the value "42", then parse it to an int.
