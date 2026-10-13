@@ -11,10 +11,14 @@ public class _3_TypeCasting {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Widen an int to a double (implicit casting)
+        // DONE: 1 - Widen an int to a double (implicit casting)
         // Declare an int variable with any value, then assign it to a double variable.
         // Print both variables to see the result.
+        int myInt = 10;
+        double myDouble = myInt;
 
+        System.out.println("int value: " + myInt);
+        System.out.println("double value: " + myDouble);
 
         // TODO: 2 - Narrow a double to an int (explicit casting)
         // Declare a double variable (e.g., 9.78), then cast it to an int.
