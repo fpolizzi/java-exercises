@@ -29,10 +29,13 @@ public class _3_TypeCasting {
         System.out.println("double value: " + myDouble2);
         System.out.println("int value: " + myInt2);
 
-        // TODO: 3 - Cast an int to a char to get the character it represents
+        // DONE: 3 - Cast an int to a char to get the character it represents
         // Hint: int value 65 corresponds to 'A' in ASCII
         // Print the resulting char.
+        int asciiValue = 65;
+        char character = (char) asciiValue;
 
+        System.out.println("Character: " + character);
 
         // TODO: 4 - Cast a char to an int to get its ASCII value
         // Hint: char 'Z' has an ASCII value of 90
