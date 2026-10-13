@@ -47,7 +47,7 @@ public class _2_Operators {
         System.out.println(score + " -= " + (score -= 10));
         System.out.println(score + " *= " + (score *= 10));
 
-        // TODO: 5 - Use comparison operators (==, !=, >, <, >=, <=) and print the boolean results
+        // DONE: 5 - Use comparison operators (==, !=, >, <, >=, <=) and print the boolean results
         // Declare two int variables (e.g., x = 5, y = 10)
         // Print the result of each comparison, e.g.: System.out.println("x == y: " + (x == y));
         int x = 5;
@@ -60,13 +60,17 @@ public class _2_Operators {
         System.out.println("x >= y: " + (x >= y));
         System.out.println("x <= y: " + (x <= y));
 
-
-        // TODO: 6 - Use logical operators (&&, ||, !) to combine conditions
+        // DONE: 6 - Use logical operators (&&, ||, !) to combine conditions
         // Declare two boolean variables (e.g., hasLicense = true, hasInsurance = false)
         // Print the result of: hasLicense && hasInsurance
         // Print the result of: hasLicense || hasInsurance
         // Print the result of: !hasLicense
+        boolean hasLicense = true;
+        boolean hasInsurance = false;
 
+        System.out.println("hasLicense && hasInsurance: " + (hasLicense && hasInsurance));
+        System.out.println("hasLicense || hasInsurance: " + (hasLicense || hasInsurance));
+        System.out.println("!hasLicense: " + (!hasLicense));
 
         // TODO: 7 - Use the ternary operator to assign "adult" or "minor" based on age
         // Declare an int variable called age with any value
