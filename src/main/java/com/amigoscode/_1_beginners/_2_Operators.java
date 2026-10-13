@@ -72,10 +72,12 @@ public class _2_Operators {
         System.out.println("hasLicense || hasInsurance: " + (hasLicense || hasInsurance));
         System.out.println("!hasLicense: " + (!hasLicense));
 
-        // TODO: 7 - Use the ternary operator to assign "adult" or "minor" based on age
+        // DONE: 7 - Use the ternary operator to assign "adult" or "minor" based on age
         // Declare an int variable called age with any value
         // Use the ternary operator: String status = (condition) ? "adult" : "minor";
         // Print the status
+        int age = 18;
 
+        String status = (age >= 18) ? "adult" : "minor";
     }
 }
