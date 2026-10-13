@@ -45,10 +45,13 @@ public class _3_TypeCasting {
 
         System.out.println("ASCII value of Z: " + letterAscii);
 
-        // TODO: 5 - Convert a String "42" to an int using Integer.parseInt()
+        // DONE: 5 - Convert a String "42" to an int using Integer.parseInt()
         // Declare a String variable with the value "42", then parse it to an int.
         // Print the result.
+        String numberStr = "42";
+        int parsedNumber = Integer.parseInt(numberStr);
 
+        System.out.println("Parsed int: " + parsedNumber);
 
         // TODO: 6 - Convert an int 42 to a String using String.valueOf()
         // Declare an int variable with the value 42, then convert it to a String.
