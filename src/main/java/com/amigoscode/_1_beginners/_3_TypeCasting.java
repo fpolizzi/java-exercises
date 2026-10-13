@@ -53,9 +53,12 @@ public class _3_TypeCasting {
 
         System.out.println("Parsed int: " + parsedNumber);
 
-        // TODO: 6 - Convert an int 42 to a String using String.valueOf()
+        // DONE: 6 - Convert an int 42 to a String using String.valueOf()
         // Declare an int variable with the value 42, then convert it to a String.
         // Print the result.
+        int num = 42;
+        String numStr = String.valueOf(num);
 
+        System.out.println("String value: " + numStr);
     }
 }
