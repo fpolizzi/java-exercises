@@ -20,10 +20,14 @@ public class _3_TypeCasting {
         System.out.println("int value: " + myInt);
         System.out.println("double value: " + myDouble);
 
-        // TODO: 2 - Narrow a double to an int (explicit casting)
+        // DONE: 2 - Narrow a double to an int (explicit casting)
         // Declare a double variable (e.g., 9.78), then cast it to an int.
         // Print both variables to see what happens to the decimal part.
+        double myDouble2 = 9.78;
+        int myInt2 = (int) myDouble2;
 
+        System.out.println("double value: " + myDouble2);
+        System.out.println("int value: " + myInt2);
 
         // TODO: 3 - Cast an int to a char to get the character it represents
         // Hint: int value 65 corresponds to 'A' in ASCII
