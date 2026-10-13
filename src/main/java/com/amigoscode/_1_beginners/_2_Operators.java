@@ -50,6 +50,15 @@ public class _2_Operators {
         // TODO: 5 - Use comparison operators (==, !=, >, <, >=, <=) and print the boolean results
         // Declare two int variables (e.g., x = 5, y = 10)
         // Print the result of each comparison, e.g.: System.out.println("x == y: " + (x == y));
+        int x = 5;
+        int y = 10;
+
+        System.out.println("x == y: " + (x == y));
+        System.out.println("x != y: " + (x != y));
+        System.out.println("x > y: " + (x > y));
+        System.out.println("x < y: " + (x < y));
+        System.out.println("x >= y: " + (x >= y));
+        System.out.println("x <= y: " + (x <= y));
 
 
         // TODO: 6 - Use logical operators (&&, ||, !) to combine conditions
