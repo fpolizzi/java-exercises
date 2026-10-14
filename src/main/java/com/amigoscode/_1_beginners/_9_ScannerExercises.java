@@ -12,9 +12,9 @@ public class _9_ScannerExercises {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Create a Scanner object to read from System.in
+        // DONE: 1 - Create a Scanner object to read from System.in
         // Hint: Scanner scanner = new Scanner(System.in);
-
+        Scanner scanner = new Scanner(System.in);
 
         // TODO: 2 - Prompt the user for their name and read it using nextLine()
         // Print "Enter your name: " then read the input into a String variable.
