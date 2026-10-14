@@ -1,5 +1,6 @@
 package com.amigoscode._1_beginners;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -16,11 +17,12 @@ public class _9_ScannerExercises {
         // Hint: Scanner scanner = new Scanner(System.in);
         Scanner scanner = new Scanner(System.in);
 
-        // TODO: 2 - Prompt the user for their name and read it using nextLine()
+        // DONE: 2 - Prompt the user for their name and read it using nextLine()
         // Print "Enter your name: " then read the input into a String variable.
         // Hint: Use System.out.print() (not println) for the prompt so the cursor
         //       stays on the same line.
-
+        System.out.print("Enter your name: ");
+        String name = scanner.next();
 
         // TODO: 3 - Prompt the user for their age and read it using nextInt()
         // Print "Enter your age: " then read the input into an int variable.
