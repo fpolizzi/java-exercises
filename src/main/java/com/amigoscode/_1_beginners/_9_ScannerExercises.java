@@ -30,9 +30,9 @@ public class _9_ScannerExercises {
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 
-        // TODO: 4 - Print a greeting using the name and age
+        // DONE: 4 - Print a greeting using the name and age
         // Example output: "Hello, Alice! You are 25 years old."
-
+        System.out.println("Hello, " + name + "! You are " + age + " years old.");
 
         // TODO: 5 - Prompt the user for two numbers, read them, and print their sum
         // Print "Enter first number: ", read it.
