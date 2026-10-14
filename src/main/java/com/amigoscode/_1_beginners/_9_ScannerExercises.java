@@ -47,6 +47,6 @@ public class _9_ScannerExercises {
 
         // TODO: 6 - Close the scanner to free resources
         // Hint: scanner.close();
-
+        scanner.close();
     }
 }
