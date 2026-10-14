@@ -34,11 +34,16 @@ public class _9_ScannerExercises {
         // Example output: "Hello, Alice! You are 25 years old."
         System.out.println("Hello, " + name + "! You are " + age + " years old.");
 
-        // TODO: 5 - Prompt the user for two numbers, read them, and print their sum
+        // DONE: 5 - Prompt the user for two numbers, read them, and print their sum
         // Print "Enter first number: ", read it.
         // Print "Enter second number: ", read it.
         // Print "Sum: " followed by the result.
+        System.out.print("Enter first number: ");
+        int firstNumber = scanner.nextInt();
+        System.out.print("Enter second number: ");
+        int secondNumber = scanner.nextInt();
 
+        System.out.println("Sum: " + (firstNumber + secondNumber));
 
         // TODO: 6 - Close the scanner to free resources
         // Hint: scanner.close();
