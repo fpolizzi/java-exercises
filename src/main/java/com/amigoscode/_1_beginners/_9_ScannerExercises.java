@@ -1,6 +1,5 @@
 package com.amigoscode._1_beginners;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -45,7 +44,7 @@ public class _9_ScannerExercises {
 
         System.out.println("Sum: " + (firstNumber + secondNumber));
 
-        // TODO: 6 - Close the scanner to free resources
+        // DONE: 6 - Close the scanner to free resources
         // Hint: scanner.close();
         scanner.close();
     }
