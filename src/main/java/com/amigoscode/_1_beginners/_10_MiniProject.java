@@ -48,7 +48,7 @@ public class _10_MiniProject {
         // Case 1: Print "Result: " + (num1 + num2)
         // Case 2: Print "Result: " + (num1 - num2)
         // Case 3: Print "Result: " + (num1 * num2)
-        // Case 4: Perform division (but handle division by zero first - see TODO 6)
+        // Case 4: Perform division (but handle division by zero first - see DONE 6)
         // Default: Print "Invalid choice"
         switch (operator) {
             case 1:
@@ -61,7 +61,7 @@ public class _10_MiniProject {
                 System.out.println("Result: " + (firstNumber * secondNumber));
                 break;
             case 4:
-                // TODO: 6 - Inside case 4, handle division by zero with an if statement
+                // DONE: 6 - Inside case 4, handle division by zero with an if statement
                 // If the second number is 0, print "Error: Cannot divide by zero"
                 // Otherwise, print the result of the division
                 if (secondNumber == 0) {
