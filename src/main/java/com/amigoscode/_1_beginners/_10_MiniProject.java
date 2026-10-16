@@ -31,8 +31,8 @@ public class _10_MiniProject {
         System.out.println("4. Divide");
         System.out.print("Choose an operation (1-4): ");
 
-        // TODO: 3 - Read the user's choice into an int variable
-
+        // DONE: 3 - Read the user's choice into an int variable
+        int input = scanner.nextInt();
 
         // TODO: 4 - Prompt and read two double numbers from the user
         // Print "Enter first number: " and read it.
