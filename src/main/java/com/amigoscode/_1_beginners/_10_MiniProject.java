@@ -34,9 +34,14 @@ public class _10_MiniProject {
         // DONE: 3 - Read the user's choice into an int variable
         int input = scanner.nextInt();
 
-        // TODO: 4 - Prompt and read two double numbers from the user
+        // DONE: 4 - Prompt and read two double numbers from the user
         // Print "Enter first number: " and read it.
         // Print "Enter second number: " and read it.
+        System.out.print("Enter first number: ");
+        int firstNumber = scanner.nextInt();
+
+        System.out.print("Enter second number: ");
+        int secondNumber = scanner.nextInt();
 
 
         // TODO: 5 - Use a switch statement to perform the chosen operation and print the result
