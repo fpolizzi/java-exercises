@@ -13,8 +13,8 @@ public class _10_MiniProject {
 
     public static void main(String[] args) {
 
-        // TODO: 1 - Create a Scanner for user input
-
+        // DONE: 1 - Create a Scanner for user input
+        Scanner scanner = new Scanner(System.in);
 
         // TODO: 2 - Display a menu with the following options:
         // Print:
