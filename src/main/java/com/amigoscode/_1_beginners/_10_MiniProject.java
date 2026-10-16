@@ -16,7 +16,7 @@ public class _10_MiniProject {
         // DONE: 1 - Create a Scanner for user input
         Scanner scanner = new Scanner(System.in);
 
-        // TODO: 2 - Display a menu with the following options:
+        // DONE: 2 - Display a menu with the following options:
         // Print:
         //   "=== Simple Calculator ==="
         //   "1. Add"
@@ -24,7 +24,12 @@ public class _10_MiniProject {
         //   "3. Multiply"
         //   "4. Divide"
         //   "Choose an operation (1-4): "
-
+        System.out.println("=== Simple Calculator ===");
+        System.out.println("1. Add");
+        System.out.println("2. Subtract");
+        System.out.println("3. Multiply");
+        System.out.println("4. Divide");
+        System.out.print("Choose an operation (1-4): ");
 
         // TODO: 3 - Read the user's choice into an int variable
 
