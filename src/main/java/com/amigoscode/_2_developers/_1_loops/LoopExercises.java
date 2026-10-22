@@ -18,10 +18,15 @@ public class LoopExercises {
      * @param n the size of the multiplication table
      */
     public static void printMultiplicationTable(int n) {
-        // TODO: 1 - Use nested for loops to print an n x n multiplication table.
+        // DONE: 1 - Use nested for loops to print an n x n multiplication table.
         //  Outer loop iterates rows 1..n, inner loop iterates columns 1..n.
         //  Print each product followed by a tab, and a newline after each row.
-
+        for (int x = 1; x <= n; x++) {
+            for (int y = 1; y <= n; y++) {
+                System.out.print(x * y + "\t");
+            }
+            System.out.println();
+        }
     }
 
     /**
