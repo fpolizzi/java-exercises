@@ -145,10 +145,14 @@ public class LoopExercises {
     public static int countUntilMatch(int target) {
         int attempts = 0;
         java.util.Random random = new java.util.Random();
-        // TODO: 7 - Use while(true) to create an infinite loop.
+        // DONE: 7 - Use while(true) to create an infinite loop.
         //  Each iteration: increment attempts, generate a random int between 1 and 100,
         //  and break if it matches the target.
-
+        while (true) {
+            attempts++;
+            int guess = random.nextInt(100) + 1;
+            if (guess == target) break;
+        }
         return attempts;
     }
 
