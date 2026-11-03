@@ -58,11 +58,19 @@ public class LoopExercises {
      */
     public static String findInMatrix(int[][] matrix, int target) {
         String result = "Not found";
-        // TODO: 3 - Define a label (e.g., 'search:') before the outer loop.
+        // DONE: 3 - Define a label (e.g., 'search:') before the outer loop.
         //  Use nested loops to iterate through the matrix.
         //  When the target is found, set result to "Found at [row][col]" and
         //  use 'break search;' to exit both loops.
-
+        search:
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[i][j] == target) {
+                    result = "Found at [" + i + "][" + j + "]";
+                    break search;
+                }
+            }
+        }
         return result;
     }
 
