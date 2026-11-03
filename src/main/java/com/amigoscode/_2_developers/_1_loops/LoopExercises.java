@@ -83,9 +83,11 @@ public class LoopExercises {
      */
     public static long factorial(int n) {
         long accumulator = 1;
-        // TODO: 4 - Use a for loop from 1 to n (inclusive), multiplying accumulator
+        // DONE: 4 - Use a for loop from 1 to n (inclusive), multiplying accumulator
         //  by the loop variable each iteration. Return the result.
-
+        for (int i = 1; i <= n; i++) {
+            accumulator *= i;
+        }
         return accumulator;
     }
 
