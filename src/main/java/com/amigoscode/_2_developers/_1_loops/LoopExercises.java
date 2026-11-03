@@ -125,9 +125,12 @@ public class LoopExercises {
      */
     public static String iterateBackwards(int[] arr) {
         StringBuilder sb = new StringBuilder();
-        // TODO: 6 - Use a for loop starting from the last index down to 0.
+        // DONE: 6 - Use a for loop starting from the last index down to 0.
         //  Append each element to sb. Add ", " between elements but not after the last one.
-
+        for (int i = arr.length - 1; i >= 0; i--) {
+            sb.append(arr[i]);
+            if (i > 0) sb.append(", ");
+        }
         return sb.toString();
     }
 
