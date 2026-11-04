@@ -57,9 +57,9 @@ public class IfStatements {
      * @return the length of the string, or -1 if null
      */
     public static int safeLength(String text) {
-        // TODO: 4 - Check if text is null before calling text.length().
+        // DONE: 4 - Check if text is null before calling text.length().
         //  Return -1 if text is null, otherwise return text.length().
-        return 0;
+        return text == null ? -1 : text.length();
     }
 
     /**
