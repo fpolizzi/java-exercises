@@ -31,9 +31,9 @@ public class IfStatements {
      * @return true if eligible
      */
     public static boolean isEligibleForLoan(int age, double income, boolean hasGuarantor) {
-        // TODO: 2 - Use a single return statement with && and || operators
+        // DONE: 2 - Use a single return statement with && and || operators
         //  to express the eligibility condition described above.
-        return false;
+        return (age >= 18 && income >= 30000) || (age >= 16 && hasGuarantor);
     }
 
     /**
