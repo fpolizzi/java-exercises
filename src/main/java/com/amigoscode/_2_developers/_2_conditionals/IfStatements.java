@@ -71,11 +71,13 @@ public class IfStatements {
      * @return true if both strings are equal (or both null)
      */
     public static boolean safeEquals(String a, String b) {
-        // TODO: 5 - Compare strings properly:
+        // DONE: 5 - Compare strings properly:
         //  If both are null, return true.
         //  If only one is null, return false.
         //  Otherwise, use a.equals(b) — never use == for string content comparison.
-        return false;
+        if (a == null && b == null) return true;
+        if (a == null || b == null) return false;
+        return a.equals(b);
     }
 
     /**
