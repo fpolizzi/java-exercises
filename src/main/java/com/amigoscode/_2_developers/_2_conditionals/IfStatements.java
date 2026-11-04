@@ -44,9 +44,9 @@ public class IfStatements {
      * @return the letter grade
      */
     public static String getGrade(int score) {
-        // TODO: 3 - Use nested ternary operators to return the correct grade.
+        // DONE: 3 - Use nested ternary operators to return the correct grade.
         //  Example pattern: score >= 90 ? "A" : score >= 80 ? "B" : ...
-        return null;
+        return score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : score >= 60 ? "D" : "F";
     }
 
     /**
