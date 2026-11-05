@@ -74,11 +74,12 @@ public class PackageDemo {
      * and prints it.
      */
     public static void useClassFromAnotherPackage() {
-        // TODO: 5 - Import or use a fully qualified name for a class from another package
+        // DONE: 5 - Import or use a fully qualified name for a class from another package
         //  in this project (e.g., com.amigoscode._2_developers._2_conditionals.IfStatements).
         //  Call one of its static methods and print the result.
         //  Example: String result = com.amigoscode._2_developers._2_conditionals.IfStatements.evenOrOdd(4);
-
+        String result = com.amigoscode._2_developers._2_conditionals.IfStatements.evenOrOdd(4);
+        System.out.println("4 is " + result);
     }
 
     public static void main(String[] args) {
