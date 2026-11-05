@@ -1,8 +1,9 @@
 package com.amigoscode._2_developers._3_packages;
 
-// TODO: 1 - Import java.util.List and java.util.ArrayList, then create a List<String>
+// DONE: 1 - Import java.util.List and java.util.ArrayList, then create a List<String>
 //  in the useListFromUtil() method below.
-
+import java.util.List;
+import java.util.ArrayList;
 
 // TODO: 2 - Import java.time.LocalDate, then use it in the printToday() method below.
 
@@ -19,9 +20,13 @@ public class PackageDemo {
      * Creates a List of three fruit names and prints it.
      */
     public static void useListFromUtil() {
-        // TODO: 1 (continued) - Create a List<String> using ArrayList, add three fruits,
+        // DONE: 1 (continued) - Create a List<String> using ArrayList, add three fruits,
         //  and print the list. Make sure you have the import statements at the top.
-
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Lemon");
+        fruits.add("Banana");
+        fruits.add("Orange");
+        System.out.println(fruits);
     }
 
     /**
