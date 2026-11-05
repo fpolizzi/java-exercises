@@ -43,9 +43,13 @@ public class PackageDemo {
      * Adds two entries and prints the map.
      */
     public static void useFullyQualifiedName() {
-        // TODO: 3 - Create a java.util.HashMap<String, Integer> using the fully qualified
+        // DONE: 3 - Create a java.util.HashMap<String, Integer> using the fully qualified
         //  class name (no import). Put two entries (e.g., "Alice"->90, "Bob"->85) and print it.
         //  Example: java.util.HashMap<String, Integer> map = new java.util.HashMap<>();
+        java.util.HashMap<String, Integer> map = new java.util.HashMap<>();
+        map.put("Curt", 72);
+        map.put("Betty", 83);
+        System.out.println(map);
     }
 
     // TODO: 4 - Add a static import for java.lang.Math.PI at the top of this file,
