@@ -5,8 +5,8 @@ package com.amigoscode._2_developers._3_packages;
 import java.util.List;
 import java.util.ArrayList;
 
-// TODO: 2 - Import java.time.LocalDate, then use it in the printToday() method below.
-
+// DONE: 2 - Import java.time.LocalDate, then use it in the printToday() method below.
+import java.time.LocalDate;
 
 /**
  * Package and Import Exercises
@@ -33,9 +33,9 @@ public class PackageDemo {
      * Prints today's date using LocalDate.now().
      */
     public static void printToday() {
-        // TODO: 2 (continued) - Use LocalDate.now() to get today's date and print it.
+        // DONE: 2 (continued) - Use LocalDate.now() to get today's date and print it.
         //  Make sure you have the import statement at the top.
-
+        System.out.println(LocalDate.now());
     }
 
     /**
@@ -46,7 +46,6 @@ public class PackageDemo {
         // TODO: 3 - Create a java.util.HashMap<String, Integer> using the fully qualified
         //  class name (no import). Put two entries (e.g., "Alice"->90, "Bob"->85) and print it.
         //  Example: java.util.HashMap<String, Integer> map = new java.util.HashMap<>();
-
     }
 
     // TODO: 4 - Add a static import for java.lang.Math.PI at the top of this file,
