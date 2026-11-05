@@ -8,6 +8,7 @@ import java.util.ArrayList;
 // DONE: 2 - Import java.time.LocalDate, then use it in the printToday() method below.
 import java.time.LocalDate;
 
+import static java.lang.Math.PI;
 /**
  * Package and Import Exercises
  *
@@ -52,7 +53,7 @@ public class PackageDemo {
         System.out.println(map);
     }
 
-    // TODO: 4 - Add a static import for java.lang.Math.PI at the top of this file,
+    // DONE: 4 - Add a static import for java.lang.Math.PI at the top of this file,
     //  then complete the method below to use PI directly (without Math.PI).
 
     /**
@@ -63,9 +64,9 @@ public class PackageDemo {
      * @return the area
      */
     public static double circleArea(double radius) {
-        // TODO: 4 (continued) - Return PI * radius * radius using the statically imported PI.
+        // DONE: 4 (continued) - Return PI * radius * radius using the statically imported PI.
         //  You need to add: import static java.lang.Math.PI; at the top of this file.
-        return 0;
+        return PI * radius * radius;
     }
 
     /**
