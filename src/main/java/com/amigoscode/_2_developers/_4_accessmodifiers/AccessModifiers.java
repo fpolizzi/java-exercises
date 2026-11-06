@@ -48,11 +48,14 @@ public class AccessModifiers {
         this.secret = secret;
     }
 
-    // TODO: 6 - Create a public method called 'demonstrateInternalAccess' that:
+    // DONE: 6 - Create a public method called 'demonstrateInternalAccess' that:
     //  - Sets the secret field directly (not through the setter) to "Internal access works!"
     //  - Calls all three greeting methods (public, protected, package-private)
     //  - Returns a String summarizing: the secret value and all three greetings,
     //    separated by newlines.
     //  This demonstrates that within the same class, ALL access levels are accessible.
-
+    public String demonstrateInternalAccess() {
+        secret = "Internal access works!";
+        return secret + "\n" + publicGreeting() + "\n" + protectedGreeting() + "\n" + packageGreeting();
+    }
 }
