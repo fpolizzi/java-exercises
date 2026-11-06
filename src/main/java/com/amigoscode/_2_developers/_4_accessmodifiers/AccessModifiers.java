@@ -9,9 +9,9 @@ package com.amigoscode._2_developers._4_accessmodifiers;
  */
 public class AccessModifiers {
 
-    // TODO: 1 - Declare a private String field called 'secret'.
+    // DONE: 1 - Declare a private String field called 'secret'.
     //  Private means only this class can access it directly.
-
+    private String secret;
 
     // TODO: 2 - Declare a public method called 'publicGreeting' that returns
     //  the String "Hello from a public method!".

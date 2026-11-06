@@ -9,7 +9,8 @@ package com.amigoscode._2_developers._4_accessmodifiers;
 public class AccessDemo {
 
     public static void main(String[] args) {
-        // TODO: 1 - Create an instance of AccessModifiers.
+        // DONE: 1 - Create an instance of AccessModifiers.
+        AccessModifiers instance = new AccessModifiers();
 
         System.out.println("=== Calling Public Method ===");
         // TODO: 2 - Call the publicGreeting() method on your instance and print the result.
