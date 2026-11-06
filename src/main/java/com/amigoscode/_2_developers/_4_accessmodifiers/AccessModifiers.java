@@ -37,10 +37,16 @@ public class AccessModifiers {
         return "Hello from a package-private method!";
     }
 
-    // TODO: 5 - Create a getter (getSecret) and a setter (setSecret) for the 'secret' field.
+    // DONE: 5 - Create a getter (getSecret) and a setter (setSecret) for the 'secret' field.
     //  The getter should be public and return the secret.
     //  The setter should be public, take a String parameter, and assign it to the field.
+    public String getSecret() {
+        return secret;
+    }
 
+    public void setSecret(String secret) {
+        this.secret = secret;
+    }
 
     // TODO: 6 - Create a public method called 'demonstrateInternalAccess' that:
     //  - Sets the secret field directly (not through the setter) to "Internal access works!"

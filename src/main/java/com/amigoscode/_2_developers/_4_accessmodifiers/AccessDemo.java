@@ -26,15 +26,21 @@ public class AccessDemo {
         // DONE: 4 - Use setSecret() to set a value, then use getSecret() to read it back.
         //  Print the result. This demonstrates proper encapsulation:
         //  we access the private field only through public getter/setter methods.
-        String packageGreeting() {
-            return "Hello from a package-private method!";
-        }
+        // String packageGreeting() {
+        //   return "Hello from a package-private method!";
+        // }
+        instance.setSecret("My secret value");
+        System.out.println(instance.getSecret());
 
         System.out.println("\n=== Why Direct Private Access Won't Work ===");
-        // TODO: 5 - Write a comment explaining why the following line would NOT compile:
+        // DONE: 5 - Write a comment explaining why the following line would NOT compile:
         //  // instance.secret = "trying direct access";
         //  Then leave the line commented out, preceded by your explanation.
         //  Hint: think about what 'private' means for field visibility outside the class.
+        // The 'secret' field is declared as private in AccessModifiers, so it is only
+        // accessible within the AccessModifiers class itself. Other classes, even in the
+        // same package, cannot access private fields directly.
+        // instance.secret = "trying direct access";
 
     }
 }
