@@ -22,9 +22,12 @@ public class AccessModifiers {
     }
 
 
-    // TODO: 3 - Declare a protected method called 'protectedGreeting' that returns
+    // DONE: 3 - Declare a protected method called 'protectedGreeting' that returns
     //  the String "Hello from a protected method!".
     //  Protected means accessible within this package and by subclasses in other packages.
+    protected String protectedGreeting() {
+        return "Hello from a protected method!";
+    }
 
 
     // TODO: 4 - Declare a package-private (default) method called 'packageGreeting'

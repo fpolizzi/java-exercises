@@ -18,8 +18,9 @@ public class AccessDemo {
         System.out.println(instance.publicGreeting());
 
         System.out.println("\n=== Calling Package-Private Method ===");
-        // TODO: 3 - Call the packageGreeting() method on your instance and print the result.
+        // DONE: 3 - Call the packageGreeting() method on your instance and print the result.
         //  This works because AccessDemo is in the SAME package as AccessModifiers.
+        System.out.println(instance.protectedGreeting());
 
         System.out.println("\n=== Accessing Private Field Through Getter ===");
         // TODO: 4 - Use setSecret() to set a value, then use getSecret() to read it back.
