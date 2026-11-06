@@ -30,10 +30,12 @@ public class AccessModifiers {
     }
 
 
-    // TODO: 4 - Declare a package-private (default) method called 'packageGreeting'
+    // DONE: 4 - Declare a package-private (default) method called 'packageGreeting'
     //  that returns the String "Hello from a package-private method!".
     //  Package-private means no access modifier keyword — accessible only within this package.
-
+    String packageGreeting() {
+        return "Hello from a package-private method!";
+    }
 
     // TODO: 5 - Create a getter (getSecret) and a setter (setSecret) for the 'secret' field.
     //  The getter should be public and return the secret.

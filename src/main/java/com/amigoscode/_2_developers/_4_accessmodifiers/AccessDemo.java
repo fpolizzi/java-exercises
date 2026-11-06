@@ -23,9 +23,12 @@ public class AccessDemo {
         System.out.println(instance.protectedGreeting());
 
         System.out.println("\n=== Accessing Private Field Through Getter ===");
-        // TODO: 4 - Use setSecret() to set a value, then use getSecret() to read it back.
+        // DONE: 4 - Use setSecret() to set a value, then use getSecret() to read it back.
         //  Print the result. This demonstrates proper encapsulation:
         //  we access the private field only through public getter/setter methods.
+        String packageGreeting() {
+            return "Hello from a package-private method!";
+        }
 
         System.out.println("\n=== Why Direct Private Access Won't Work ===");
         // TODO: 5 - Write a comment explaining why the following line would NOT compile:
