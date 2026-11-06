@@ -13,9 +13,13 @@ public class AccessModifiers {
     //  Private means only this class can access it directly.
     private String secret;
 
-    // TODO: 2 - Declare a public method called 'publicGreeting' that returns
+
+    // DONE: 2 - Declare a public method called 'publicGreeting' that returns
     //  the String "Hello from a public method!".
     //  Public means any class, in any package, can call this method.
+    public String publicGreeting() {
+        return "Hello from a public method!";
+    }
 
 
     // TODO: 3 - Declare a protected method called 'protectedGreeting' that returns

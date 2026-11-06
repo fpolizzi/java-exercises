@@ -13,8 +13,9 @@ public class AccessDemo {
         AccessModifiers instance = new AccessModifiers();
 
         System.out.println("=== Calling Public Method ===");
-        // TODO: 2 - Call the publicGreeting() method on your instance and print the result.
+        // DONE: 2 - Call the publicGreeting() method on your instance and print the result.
         //  This works because public methods are accessible from anywhere.
+        System.out.println(instance.publicGreeting());
 
         System.out.println("\n=== Calling Package-Private Method ===");
         // TODO: 3 - Call the packageGreeting() method on your instance and print the result.
