@@ -42,13 +42,17 @@ public class VarArgs {
         return max;
     }
 
-    // TODO: 4 - Create a method: void printAll(Object... items)
+    // DONE: 4 - Create a method: void printAll(Object... items)
     //  Prints each item on a separate line, prefixed with its index.
     //  Example output:
     //    [0] Hello
     //    [1] 42
     //    [2] true
-
+    public void printAll(Object... items) {
+        for (int i = 0; i < items.length; i++) {
+            System.out.println("[" + i + "] " + items[i]);
+        }
+    }
 
     public static void main(String[] args) {
         VarArgs va = new VarArgs();
