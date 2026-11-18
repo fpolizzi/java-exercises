@@ -15,8 +15,11 @@ public class MethodOverloading {
         return a + b;
     }
 
-    // TODO: 2 - Create an overloaded method: int add(int a, int b, int c)
+    // DONE: 2 - Create an overloaded method: int add(int a, int b, int c)
     //  Returns the sum of three integers.
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
 
 
     // TODO: 3 - Create an overloaded method: double add(double a, double b)
