@@ -9,9 +9,11 @@ package com.amigoscode._2_developers._5_methods;
  */
 public class MethodOverloading {
 
-    // TODO: 1 - Create a method: int add(int a, int b)
+    // DONE: 1 - Create a method: int add(int a, int b)
     //  Returns the sum of two integers.
-
+    public int add(int a, int b) {
+        return a + b;
+    }
 
     // TODO: 2 - Create an overloaded method: int add(int a, int b, int c)
     //  Returns the sum of three integers.
