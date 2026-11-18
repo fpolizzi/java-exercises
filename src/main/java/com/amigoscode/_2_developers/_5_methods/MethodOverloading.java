@@ -34,10 +34,13 @@ public class MethodOverloading {
         return "[" + value + "]";
     }
 
-    // TODO: 5 - Create an overloaded method: String format(int value)
+    // DONE: 5 - Create an overloaded method: String format(int value)
     //  Returns the integer formatted with leading zeros to 5 digits.
     //  Example: format(42) returns "00042".
     //  Hint: use String.format("%05d", value)
+    public String format(int value) {
+        return String.format("%05d", value);
+    }
 
 
     // TODO: 6 - Create an overloaded method: String format(String label, int value)
