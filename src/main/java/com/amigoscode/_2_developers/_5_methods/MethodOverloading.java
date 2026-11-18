@@ -21,7 +21,6 @@ public class MethodOverloading {
         return a + b + c;
     }
 
-
     // DONE: 3 - Create an overloaded method: double add(double a, double b)
     //  Returns the sum of two doubles.
     public double add(double a, double b) {
@@ -42,10 +41,11 @@ public class MethodOverloading {
         return String.format("%05d", value);
     }
 
-
-    // TODO: 6 - Create an overloaded method: String format(String label, int value)
+    // DONE: 6 - Create an overloaded method: String format(String label, int value)
     //  Returns "label: value", e.g., format("Score", 95) returns "Score: 95".
-
+    public String format(String label, int value) {
+        return label + ": " + value;
+    }
 
     public static void main(String[] args) {
         MethodOverloading mo = new MethodOverloading();
