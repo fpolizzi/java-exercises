@@ -54,6 +54,17 @@ public class VarArgs {
         }
     }
 
+    // DONE: 6 - format method with mixed params
+    public String format(String prefix, int... numbers) {
+        StringBuilder sb = new StringBuilder(prefix + ": [");
+        for (int i = 0; i < numbers.length; i++) {
+            sb.append(numbers[i]);
+            if (i < numbers.length - 1) sb.append(", ");
+        }
+        sb.append("]");
+        return sb.toString();
+    }
+
     public static void main(String[] args) {
         VarArgs va = new VarArgs();
 
@@ -78,12 +89,12 @@ public class VarArgs {
         // Call: printAll("Hello", 42, true, 3.14)
 
         System.out.println("\n=== Mixed Params ===");
-        // TODO: 6 - Create a method: String format(String prefix, int... numbers)
+        // DONE: 6 - Create a method: String format(String prefix, int... numbers)
         //  The first parameter is a regular String, followed by varargs.
         //  Returns the prefix followed by the numbers in brackets.
         //  Example: format("Values", 1, 2, 3) returns "Values: [1, 2, 3]"
         //  Hint: varargs must be the LAST parameter in the method signature.
         //  Then call the method and print the result here.
-
+        System.out.println(va.format("Values", 1, 2, 3));
     }
 }
