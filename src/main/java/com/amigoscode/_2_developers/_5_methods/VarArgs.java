@@ -29,11 +29,18 @@ public class VarArgs {
         return String.join(" ", strings);
     }
 
-    // TODO: 3 - Create a method: int findMax(int... numbers)
+    // DONE: 3 - Create a method: int findMax(int... numbers)
     //  Returns the largest value among the arguments.
     //  If no arguments are provided, throw an IllegalArgumentException
     //  with the message "At least one number required".
-
+    public int findMax(int... numbers) {
+        if (numbers.length == 0) throw new IllegalArgumentException("At least one number required");
+        int max = numbers[0];
+        for (int n : numbers) {
+            if (n > max) max = n;
+        }
+        return max;
+    }
 
     // TODO: 4 - Create a method: void printAll(Object... items)
     //  Prints each item on a separate line, prefixed with its index.
