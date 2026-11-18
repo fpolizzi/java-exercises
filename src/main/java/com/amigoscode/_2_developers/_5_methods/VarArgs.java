@@ -8,11 +8,17 @@ package com.amigoscode._2_developers._5_methods;
  */
 public class VarArgs {
 
-    // TODO: 1 - Create a method: int sum(int... numbers)
+    // DONE: 1 - Create a method: int sum(int... numbers)
     //  Returns the sum of all provided numbers.
     //  If no arguments are provided, return 0.
     //  Hint: use a for-each loop to iterate over 'numbers'.
-
+    public int sum(int... numbers) {
+        int total = 0;
+        for (int n : numbers) {
+            total += n;
+        }
+        return total;
+    }
 
     // TODO: 2 - Create a method: String concatenate(String... strings)
     //  Joins all strings with a single space between them.
