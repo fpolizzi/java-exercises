@@ -28,9 +28,11 @@ public class MethodOverloading {
         return a + b;
     }
 
-    // TODO: 4 - Create a method: String format(String value)
+    // DONE: 4 - Create a method: String format(String value)
     //  Returns the string wrapped in square brackets, e.g., "[hello]".
-
+    public String format(String value) {
+        return "[" + value + "]";
+    }
 
     // TODO: 5 - Create an overloaded method: String format(int value)
     //  Returns the integer formatted with leading zeros to 5 digits.
