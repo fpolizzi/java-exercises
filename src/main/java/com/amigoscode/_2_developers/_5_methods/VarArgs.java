@@ -20,12 +20,14 @@ public class VarArgs {
         return total;
     }
 
-    // TODO: 2 - Create a method: String concatenate(String... strings)
+    // DONE: 2 - Create a method: String concatenate(String... strings)
     //  Joins all strings with a single space between them.
     //  Example: concatenate("Hello", "World") returns "Hello World"
     //  If no arguments, return an empty string "".
     //  Hint: use StringBuilder or String.join(" ", strings).
-
+    public String concatenate(String... strings) {
+        return String.join(" ", strings);
+    }
 
     // TODO: 3 - Create a method: int findMax(int... numbers)
     //  Returns the largest value among the arguments.
