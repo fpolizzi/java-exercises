@@ -22,9 +22,11 @@ public class MethodOverloading {
     }
 
 
-    // TODO: 3 - Create an overloaded method: double add(double a, double b)
+    // DONE: 3 - Create an overloaded method: double add(double a, double b)
     //  Returns the sum of two doubles.
-
+    public double add(double a, double b) {
+        return a + b;
+    }
 
     // TODO: 4 - Create a method: String format(String value)
     //  Returns the string wrapped in square brackets, e.g., "[hello]".
