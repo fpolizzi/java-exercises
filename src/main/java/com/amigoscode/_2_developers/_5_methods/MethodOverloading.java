@@ -50,7 +50,7 @@ public class MethodOverloading {
     public static void main(String[] args) {
         MethodOverloading mo = new MethodOverloading();
 
-        // TODO: 7 - Call each overloaded method and print the results:
+        // DONE: 7 - Call each overloaded method and print the results:
         //  - add(2, 3)
         //  - add(1, 2, 3)
         //  - add(1.5, 2.5)
@@ -58,6 +58,11 @@ public class MethodOverloading {
         //  - format(42)
         //  - format("Score", 95)
         //  Print each result with a descriptive label.
-
+        System.out.println("add(2, 3) = " + mo.add(2, 3));
+        System.out.println("add(1, 2, 3) = " + mo.add(1, 2, 3));
+        System.out.println("add(1.5, 2.5) = " + mo.add(1.5, 2.5));
+        System.out.println("format(\"hello\") = " + mo.format("hello"));
+        System.out.println("format(42) = " + mo.format(42));
+        System.out.println("format(\"Score\", 95) = " + mo.format("Score", 95));
     }
 }
