@@ -58,11 +58,14 @@ public class VarArgs {
         VarArgs va = new VarArgs();
 
         System.out.println("=== Sum ===");
-        // TODO: 5 - Demonstrate calling sum() with different numbers of arguments:
+        // DONE: 5 - Demonstrate calling sum() with different numbers of arguments:
         //  - sum()           -> 0  (zero args)
         //  - sum(5)          -> 5  (one arg)
         //  - sum(1, 2, 3, 4) -> 10 (many args)
         //  Print each result.
+        System.out.println("sum() = " + va.sum());
+        System.out.println("sum(5) = " + va.sum(5));
+        System.out.println("sum(1, 2, 3, 4) = " + va.sum(1, 2, 3, 4));
 
 
         System.out.println("\n=== Concatenate ===");
