@@ -17,9 +17,9 @@ public class StringMethods {
      * @return e.g., "equals: false, equalsIgnoreCase: true"
      */
     public static String compareEquality(String a, String b) {
-        // TODO: 1 - Use equals() and equalsIgnoreCase() to compare a and b.
+        // DONE: 1 - Use equals() and equalsIgnoreCase() to compare a and b.
         //  Return a string in the format: "equals: <result>, equalsIgnoreCase: <result>"
-        return null;
+        return "equals: " + a.equals(b) + ", equalsIgnoreCase: " + a.equalsIgnoreCase(b);
     }
 
     /**
