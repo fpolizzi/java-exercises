@@ -34,11 +34,14 @@ public class StringBuilderExercises {
      * @return the full name with the middle name inserted after the first name
      */
     public static String insertMiddleName(String fullName, String middleName) {
-        // TODO: 2 - Create a StringBuilder from fullName.
+        // DONE: 2 - Create a StringBuilder from fullName.
         //  Find the index of the first space using indexOf(" ").
         //  Insert middleName + " " at position (spaceIndex + 1).
         //  Convert to String and return.
-        return null;
+        StringBuilder sb = new StringBuilder(fullName);
+        int spaceIndex = sb.indexOf(" ");
+        sb.insert(spaceIndex + 1, middleName + " ");
+        return sb.toString();
     }
 
     /**
