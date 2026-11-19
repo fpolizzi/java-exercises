@@ -104,12 +104,17 @@ public class StringBuilderExercises {
      * @return a CSV line with values separated by commas (no trailing comma)
      */
     public static String buildCsvLine(String[] values) {
-        // TODO: 6 - Create a StringBuilder.
+        // DONE: 6 - Create a StringBuilder.
         //  Loop through the values array.
         //  Append each value, and append a comma between values (but NOT after the last one).
         //  Hint: you can check if it's not the last element, or use deleteCharAt at the end.
         //  Return the result as a String.
-        return null;
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < values.length; i++) {
+            sb.append(values[i]);
+            if (i < values.length - 1) sb.append(",");
+        }
+        return sb.toString();
     }
 
     public static void main(String[] args) {
