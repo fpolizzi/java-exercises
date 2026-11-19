@@ -129,9 +129,9 @@ public class StringMethods {
      * @return a formatted receipt line
      */
     public static String formatReceipt(String item, int quantity, double price) {
-        // TODO: 8 - Use String.format() to create a formatted string.
+        // DONE: 8 - Use String.format() to create a formatted string.
         //  Format: "%-15s x%-5d $%.2f" (left-align item in 15 chars, quantity in 5, price with 2 decimals)
-        return null;
+        return String.format("%-15s x%-5d $%.2f", item, quantity, price);
     }
 
     public static void main(String[] args) {
