@@ -84,12 +84,16 @@ public class StringBuilderExercises {
      * @return the text converted to uppercase with "!!!" appended
      */
     public static String convertDemo(String text) {
-        // TODO: 5 - Convert 'text' to a StringBuilder.
+        // DONE: 5 - Convert 'text' to a StringBuilder.
         //  Use toString() to convert the StringBuilder to a String.
         //  Call toUpperCase() on that String (String method, not StringBuilder).
         //  Create a new StringBuilder from the uppercased String, append "!!!"
         //  Return the final String.
-        return null;
+        StringBuilder sb = new StringBuilder(text);
+        String upper = sb.toString().toUpperCase();
+        StringBuilder result = new StringBuilder(upper);
+        result.append("!!!");
+        return result.toString();
     }
 
     /**
