@@ -51,12 +51,18 @@ public class StringBuilderExercises {
      * @return the text with vowels removed
      */
     public static String removeVowels(String text) {
-        // TODO: 3 - Create a StringBuilder from text.
+        // DONE: 3 - Create a StringBuilder from text.
         //  Loop through the StringBuilder (backwards is easier for deletion!).
         //  Use deleteCharAt(i) to remove characters that are vowels.
         //  Hint: check if "aeiouAEIOU".indexOf(ch) >= 0
         //  Convert to String and return.
-        return null;
+        StringBuilder sb = new StringBuilder(text);
+        for (int i = sb.length() - 1; i >= 0; i--) {
+            if ("aeiouAEIOU".indexOf(sb.charAt(i)) >= 0) {
+                sb.deleteCharAt(i);
+            }
+        }
+        return sb.toString();
     }
 
     /**
