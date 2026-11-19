@@ -46,10 +46,10 @@ public class StringMethods {
      * @return e.g., "contains: true, indexOf: 7"
      */
     public static String searchString(String text, String keyword) {
-        // TODO: 3 - Use contains() to check if text contains keyword.
+        // DONE: 3 - Use contains() to check if text contains keyword.
         //  Use indexOf() to find the position of keyword in text.
         //  Return "contains: <bool>, indexOf: <index>"
-        return null;
+        return "contains: " + text.contains(keyword) + ", indexOf: " + text.indexOf(keyword);
     }
 
     /**
