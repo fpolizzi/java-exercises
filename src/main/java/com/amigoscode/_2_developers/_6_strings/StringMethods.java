@@ -77,10 +77,16 @@ public class StringMethods {
      * @return formatted string showing parts
      */
     public static String splitDemo(String text, String delimiter) {
-        // TODO: 5 - Use text.split(delimiter) to get an array of parts.
+        // DONE: 5 - Use text.split(delimiter) to get an array of parts.
         //  Build a result string with each part on a new line: "[i] part"
         //  Example: "[0] apple\n[1] banana\n[2] cherry"
-        return null;
+        String[] parts = text.split(delimiter);
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < parts.length; i++) {
+            sb.append("[").append(i).append("] ").append(parts[i]);
+            if (i < parts.length - 1) sb.append("\n");
+        }
+        return sb.toString();
     }
 
     /**
