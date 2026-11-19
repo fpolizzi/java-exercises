@@ -72,8 +72,8 @@ public class StringBuilderExercises {
      * @return the reversed text
      */
     public static String reverseText(String text) {
-        // TODO: 4 - Create a StringBuilder from text, call reverse(), convert to String.
-        return null;
+        // DONE: 4 - Create a StringBuilder from text, call reverse(), convert to String.
+        return new StringBuilder(text).reverse().toString();
     }
 
     /**
