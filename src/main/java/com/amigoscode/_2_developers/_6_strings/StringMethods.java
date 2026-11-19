@@ -62,10 +62,10 @@ public class StringMethods {
      * @return the modified text with both replacements applied
      */
     public static String replaceDemo(String text, String oldWord, String newWord) {
-        // TODO: 4 - First use replace(oldWord, newWord) to swap words.
+        // DONE: 4 - First use replace(oldWord, newWord) to swap words.
         //  Then use replaceAll("\\d", "#") to replace all digits with "#".
         //  Return the final result.
-        return null;
+        return text.replace(oldWord, newWord).replaceAll("\\d", "#");
     }
 
     /**
