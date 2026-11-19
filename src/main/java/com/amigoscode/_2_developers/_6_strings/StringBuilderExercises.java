@@ -17,10 +17,12 @@ public class StringBuilderExercises {
      * @return "Hello, [name]! You are [age] years old."
      */
     public static String buildGreeting(String name, int age) {
-        // TODO: 1 - Create a new StringBuilder.
+        // DONE: 1 - Create a new StringBuilder.
         //  Append "Hello, ", then name, then "! You are ", then age, then " years old."
         //  Convert to String and return.
-        return null;
+        StringBuilder sb = new StringBuilder();
+        sb.append("Hello, ").append(name).append("! You are ").append(age).append(" years old.");
+        return sb.toString();
     }
 
     /**
