@@ -114,9 +114,9 @@ public class StringMethods {
      * @return the extracted substring
      */
     public static String substringDemo(String text, int beginIndex, int endIndex) {
-        // TODO: 7 - Use text.substring(beginIndex, endIndex) to extract a portion of text.
+        // DONE: 7 - Use text.substring(beginIndex, endIndex) to extract a portion of text.
         //  Return the substring.
-        return null;
+        return text.substring(beginIndex, endIndex);
     }
 
     /**
