@@ -98,9 +98,11 @@ public class StringMethods {
      * @return e.g., "startsWith 'Test': true, endsWith '.java': true"
      */
     public static String checkStartEnd(String filename, String prefix, String extension) {
-        // TODO: 6 - Use startsWith(prefix) and endsWith(extension).
+        // DONE: 6 - Use startsWith(prefix) and endsWith(extension).
         //  Return: "startsWith '<prefix>': <bool>, endsWith '<extension>': <bool>"
-        return null;
+        return "startsWith '" + prefix + "': " + filename.startsWith(prefix)
+                + ", endsWith '" + extension + "': "
+                + filename.endsWith(extension);
     }
 
     /**
