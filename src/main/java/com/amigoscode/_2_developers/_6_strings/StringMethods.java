@@ -31,9 +31,10 @@ public class StringMethods {
      * @return "before", "equal", or "after"
      */
     public static String compareLexicographic(String a, String b) {
-        // TODO: 2 - Use a.compareTo(b) and return:
+        // DONE: 2 - Use a.compareTo(b) and return:
         //  "before" if result < 0, "equal" if result == 0, "after" if result > 0.
-        return null;
+        int cmp = a.compareTo(b);
+        return cmp < 0 ? "before" : cmp == 0 ? "equal" : "after";
     }
 
     /**
